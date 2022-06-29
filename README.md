@@ -1,6 +1,6 @@
 # map
 
-Google Map をカスタマイズできるかを検討したリポジトリ
+Google Map をカスタマイズできるか検討したリポジトリ
 
 ## Getting Started
 
