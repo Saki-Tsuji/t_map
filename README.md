@@ -1,16 +1,20 @@
 # map
 
-A new Flutter project.
+Google Map をカスタマイズできるかを検討したリポジトリ
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+.env ファイルをルートに置く必要がある。[flutter_config](https://pub.dev/packages/flutter_config)を参照のこと
 
-A few resources to get you started if this is your first Flutter project:
+.env の中身は
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+GOOGLE_MAP_API={Google MapのAPI}
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 参考文献
+
+https://www.egao-inc.co.jp/programming/flutter_shapedecoration_border_bubble/
+https://zenn.dev/pressedkonbu/books/flutter-reverse-lookup-dictionary/viewer/011-widget-to-image
+https://github.com/flutter/flutter/issues/75316
+https://www.woolha.com/tutorials/flutter-using-repaintboundary-examples
